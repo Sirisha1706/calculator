@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+.calculator{
+    position: relative;
+    background-color: darkslategrey;
+    align-items: center;
+    height: fit-content;
+}
+.screen{
+    width: 95%;
+    font-size: 40px;
+    float: left;
+    padding-right: 20px;
+    margin: 30px;
+    position: relative;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    
+}
+.keys{
+    padding: 30px;
+    gap: 10px;
+    font-size: 40px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+button{
+    height: 60px;
+    font-size: 30px;
+    border-radius: 5px;
+    position: relative;
+    border-radius: 20px;
+
+}
+.operator{
+    background-color: bisque;
+}
+.equal{
+    background-color: red;
+}
+.clear{
+    background-color: darkblue;
+}
